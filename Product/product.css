@@ -1,0 +1,126 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.doubleright{
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchbox{
+  width: 150px;
+  height: 30px;
+  background-color: #ededed;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.searchbox > i{
+font-size: 20px;
+color: #333;
+}
+.searchbox input{
+width: 100px;
+background-color: #ededed;
+flex: 1;
+height: 30px;
+border: none;
+outline: none;
+font-size: 18px;
+padding-left: 10px;
+
+}
+
+#backlogo{
+    transform: none;
+    height: 40px;
+}
+#purchase{
+  height: 36px;
+}
+
+.product-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height:auto;
+    z-index: -1;
+    background-color: #ededed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .product-box {
+    width: 280px;
+    height: 320px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .product-box:hover{
+    padding: 18px;
+    text-align: center;
+    width: 290px;
+    height: 330px;
+    border: 1px solid #ddd;
+  }
+  
+  .product-image img {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .product-rating {
+    color: #ff9800;
+    margin-bottom: 5px;
+  }
+  
+  .star {
+    font-size: 16px;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    color: #4caf50;
+    border: 2px solid #4caf50;
+    background-color: #fff;
+  }
